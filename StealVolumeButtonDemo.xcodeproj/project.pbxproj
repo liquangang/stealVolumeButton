@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0730255F1EB9CB20009168B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0730255E1EB9CB20009168B9 /* main.m */; };
+		073025621EB9CB20009168B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 073025611EB9CB20009168B9 /* AppDelegate.m */; };
+		073025651EB9CB20009168B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073025641EB9CB20009168B9 /* ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		073025681EB9CB20009168B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073025661EB9CB20009168B9 /* Main.storyboard */; };
+		0730256A1EB9CB20009168B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073025691EB9CB20009168B9 /* Assets.xcassets */; };
+		0730256D1EB9CB20009168B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0730256B1EB9CB20009168B9 /* LaunchScreen.storyboard */; };
+		073025761EB9CB4C009168B9 /* RBVolumeButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 073025751EB9CB4C009168B9 /* RBVolumeButtons.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0730255A1EB9CB20009168B9 /* StealVolumeButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StealVolumeButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0730255E1EB9CB20009168B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		073025601EB9CB20009168B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		073025611EB9CB20009168B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		073025631EB9CB20009168B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		073025641EB9CB20009168B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		073025671EB9CB20009168B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		073025691EB9CB20009168B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0730256C1EB9CB20009168B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0730256E1EB9CB20009168B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073025741EB9CB4C009168B9 /* RBVolumeButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVolumeButtons.h; sourceTree = "<group>"; };
+		073025751EB9CB4C009168B9 /* RBVolumeButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVolumeButtons.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		073025571EB9CB20009168B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073025511EB9CB20009168B9 = {
+			isa = PBXGroup;
+			children = (
+				0730255C1EB9CB20009168B9 /* StealVolumeButtonDemo */,
+				0730255B1EB9CB20009168B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0730255B1EB9CB20009168B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0730255A1EB9CB20009168B9 /* StealVolumeButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0730255C1EB9CB20009168B9 /* StealVolumeButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				073025741EB9CB4C009168B9 /* RBVolumeButtons.h */,
+				073025751EB9CB4C009168B9 /* RBVolumeButtons.m */,
+				073025601EB9CB20009168B9 /* AppDelegate.h */,
+				073025611EB9CB20009168B9 /* AppDelegate.m */,
+				073025631EB9CB20009168B9 /* ViewController.h */,
+				073025641EB9CB20009168B9 /* ViewController.m */,
+				073025661EB9CB20009168B9 /* Main.storyboard */,
+				073025691EB9CB20009168B9 /* Assets.xcassets */,
+				0730256B1EB9CB20009168B9 /* LaunchScreen.storyboard */,
+				0730256E1EB9CB20009168B9 /* Info.plist */,
+				0730255D1EB9CB20009168B9 /* Supporting Files */,
+			);
+			path = StealVolumeButtonDemo;
+			sourceTree = "<group>";
+		};
+		0730255D1EB9CB20009168B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0730255E1EB9CB20009168B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		073025591EB9CB20009168B9 /* StealVolumeButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073025711EB9CB20009168B9 /* Build configuration list for PBXNativeTarget "StealVolumeButtonDemo" */;
+			buildPhases = (
+				073025561EB9CB20009168B9 /* Sources */,
+				073025571EB9CB20009168B9 /* Frameworks */,
+				073025581EB9CB20009168B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StealVolumeButtonDemo;
+			productName = StealVolumeButtonDemo;
+			productReference = 0730255A1EB9CB20009168B9 /* StealVolumeButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		073025521EB9CB20009168B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LQG;
+				TargetAttributes = {
+					073025591EB9CB20009168B9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8A7VED9NUX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 073025551EB9CB20009168B9 /* Build configuration list for PBXProject "StealVolumeButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 073025511EB9CB20009168B9;
+			productRefGroup = 0730255B1EB9CB20009168B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				073025591EB9CB20009168B9 /* StealVolumeButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		073025581EB9CB20009168B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0730256D1EB9CB20009168B9 /* LaunchScreen.storyboard in Resources */,
+				0730256A1EB9CB20009168B9 /* Assets.xcassets in Resources */,
+				073025681EB9CB20009168B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		073025561EB9CB20009168B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073025651EB9CB20009168B9 /* ViewController.m in Sources */,
+				073025621EB9CB20009168B9 /* AppDelegate.m in Sources */,
+				0730255F1EB9CB20009168B9 /* main.m in Sources */,
+				073025761EB9CB4C009168B9 /* RBVolumeButtons.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		073025661EB9CB20009168B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				073025671EB9CB20009168B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0730256B1EB9CB20009168B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0730256C1EB9CB20009168B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0730256F1EB9CB20009168B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		073025701EB9CB20009168B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		073025721EB9CB20009168B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8A7VED9NUX;
+				INFOPLIST_FILE = StealVolumeButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquangang.StealVolumeButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		073025731EB9CB20009168B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8A7VED9NUX;
+				INFOPLIST_FILE = StealVolumeButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquangang.StealVolumeButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		073025551EB9CB20009168B9 /* Build configuration list for PBXProject "StealVolumeButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0730256F1EB9CB20009168B9 /* Debug */,
+				073025701EB9CB20009168B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		073025711EB9CB20009168B9 /* Build configuration list for PBXNativeTarget "StealVolumeButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073025721EB9CB20009168B9 /* Debug */,
+				073025731EB9CB20009168B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 073025521EB9CB20009168B9 /* Project object */;
+}
